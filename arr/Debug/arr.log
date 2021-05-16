@@ -1,0 +1,4 @@
+﻿  源.c
+D:\c shiyan\arr\源.c(92,18): warning C4047: “函数”:“int *”与“int (*)[15]”的间接级别不同
+D:\c shiyan\arr\源.c(92,16): warning C4024: “bubble_sort_1”: 形参和实参 1 的类型不同
+  arr.vcxproj -> D:\c shiyan\arr\Debug\arr.exe

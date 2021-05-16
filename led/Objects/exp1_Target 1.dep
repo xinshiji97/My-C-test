@@ -1,0 +1,2 @@
+Dependencies for Project 'exp1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\led.c)(0x5ACABF5D)(-c --cpu ARM920T -D__EVAL -g -O0 --apcs=interwork --split_sections-I E:\keil_5\ARM\RV31\INC-I E:\keil_5\ARM\CMSIS\Include-I E:\keil_5\ARM\Inc\Samsung-D__UVISION_VERSION="518"-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)

@@ -1,0 +1,94 @@
+Component: ARM Compiler 5.06 update 1 (build 61) Tool: armlink [4d35a8]
+
+==============================================================================
+
+Section Cross References
+
+    led.o(i.ledMain) refers to led.o(i.Delay) for Delay
+
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    led.c                                    0x00000000   Number         0  led.o ABSOLUTE
+    i.Delay                                  0x32000000   Section        0  led.o(i.Delay)
+    i.ledMain                                0x3200003c   Section        0  led.o(i.ledMain)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv1$ARM_ISAv4$S$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$STANDARDLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    Delay                                    0x32000000   ARM Code      60  led.o(i.Delay)
+    ledMain                                  0x3200003c   ARM Code     140  led.o(i.ledMain)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x32000000
+
+  Load Region LR_1 (Base: 0x32000000, Size: 0x000000d0, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region ER_RO (Base: 0x32000000, Size: 0x000000d0, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x32000000   0x0000003c   Code   RO            1  * i.Delay             led.o
+    0x3200003c   0x00000094   Code   RO            2    i.ledMain           led.o
+
+
+    Execution Region ER_RW (Base: 0x40000000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    **** No section assigned to this execution region ****
+
+
+    Execution Region ER_ZI (Base: 0x40000000, Size: 0x00000000, Max: 0xffffffff, ABSOLUTE)
+
+    **** No section assigned to this execution region ****
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       208          8          0          0          0       2266   led.o
+
+    ----------------------------------------------------------------------
+       208          8          0          0          0       2266   Object Totals
+         0          0          0          0          0          0   (incl. Generated)
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+         0          0          0          0          0          0   Library Totals
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+       208          8          0          0          0       2214   Grand Totals
+       208          8          0          0          0       2214   ELF Image Totals
+       208          8          0          0          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                  208 (   0.20kB)
+    Total RW  Size (RW Data + ZI Data)                 0 (   0.00kB)
+    Total ROM Size (Code + RO Data + RW Data)        208 (   0.20kB)
+
+==============================================================================
+
